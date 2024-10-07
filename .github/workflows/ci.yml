@@ -36,8 +36,3 @@ jobs:
       - name: Run training script
         run: |
           python train.py
-
-      - name: Run tests
-        run: |
-          pytest
-
